@@ -3,27 +3,34 @@ body {
 }
 
 /* Navigation Bar */
-.nav li a, .square, .user {
-    color: rgb(87, 74, 74);
+.nav li a, .square a, .user a {
+    position: relative;
 }
 
-.nav li a, .square {
-    padding-right: 1em;
-    position: relative;
+.nav li a, .square a {
+    padding-right: 1.3em;
     top: 6px;
 }
 
 .nav li a{
     text-decoration: none; 
     font-size: 0.8em;
+    color: rgb(87, 74, 74);
 }
 
-.square {
-    font-size: 1.4em;
+.nav li a:hover {
+    text-decoration: underline;
 }
 
-.user {
-    font-size: 2em;
+.square img {
+    width: 18px;
+    height: 18px;
+}
+
+.user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
 }
 
 .flexx {
